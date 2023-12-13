@@ -1,0 +1,50 @@
+#file-container{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#file-container span {
+   margin-right: 10px;
+   margin-left: 10px;
+}
+
+
+#popupContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2px;
+  display: none;
+  max-height: 80%;
+  overflow: auto;
+}
+
+#popupContent {
+  position: relative;
+  background-color: #fff;
+  padding: 20px;
+}
+
+#closePopup {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#DownloadBotton{
+	background-position: center;
+    background-image: url(/dwicon.png);
+    background-size: 33px;
+    background-repeat: no-repeat;
+    height: 65px;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    margin-top: -30px;
+}
